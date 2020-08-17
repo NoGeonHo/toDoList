@@ -1,0 +1,60 @@
+body {
+    background-color: orange;
+}
+
+.main_screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main_toDoList {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.toDoForm {
+    background-color: rosybrown;
+    height: 70px;
+    line-height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.toDoForm label {
+    display: inline;
+    margin: 0px 0px 0px 30px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.toDoForm input {
+    border: none;
+    outline: inherit;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 100px;
+    line-height: 70px;
+}
+
+.main_screen .main_toDoList ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.delBtn {
+    border: none;
+    background: green;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 0 auto;
+}
